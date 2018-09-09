@@ -1,0 +1,18 @@
+Session 4 – Foundational R Programming – II
+Assignment – 3
+
+1.
+> States = rownames(USArrests)
+> States[grep('W', States)]
+[1] "Washington"    "West Virginia" "Wisconsin"     "Wyoming"      
+> States[grep("w", States)]
+[1] "Delaware"      "Hawaii"        "Iowa"          "New Hampshire" "New Jersey"    "New Mexico"    "New York"     
+> 
+2.
+hist(USArrests$Murder, col = "red")
+hist(USArrests$Assault, col = "blue")
+hist(USArrests$UrbanPop, col = "green")
+hist(USArrests$Rape, col = "yellow")
+
+
+
